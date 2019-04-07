@@ -1,0 +1,36 @@
+@import 'fonts';
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: #ececec;
+}
+
+.home {
+  display: block;
+  width: 1200px;
+  max-height: 600px;
+  margin: 10px auto;
+  background: #fff;
+  border-radius: 5px;
+  padding:5px 10px;
+}
+
+.red:before {
+  content: ' \25CF';
+  font-size: 30px;
+  color: #FF0000;
+}
+
+.yellow:before {
+  content: ' \25CF';
+  font-size: 30px;
+  color: #FFD700;
+}
+.green:before {
+  content: ' \25CF';
+  font-size: 30px;
+  color: #228B22;
+}
